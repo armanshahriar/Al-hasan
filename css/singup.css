@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0ch;
+    box-sizing: border-box;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    background: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 470px;
+
+}
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #091B22;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+.wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color:#D6B45A ;
+    text-transform: uppercase;
+    text-align: center;
+}
+.wrapper .from{
+    width: 100%;
+}
+.wrapper .from .input_fild{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .from .input_fild label{
+    width: 200px;
+    color:#D6B45A;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.wrapper .from .input_fild .input
+{
+    width: 100%;
+    outline: none;
+    border: 1px solid #091B22;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.wrapper .from .input_fild .textarea
+{
+    width: 100%;
+    outline: none;
+    border: 1px solid #091B22;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    resize: none;
+    height: 125px;
+}
+.wrapper .from .input_fild .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+.wrapper .from .input_fild .custom_select select{
+    appearance: none;
+    border: 1px solid #091B22;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none;
+}
+.wrapper .from .input_fild .custom_select::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color:#D6B45A transparent transparent transparent ;
+    pointer-events: none;
+}
+.wrapper .from .input_fild .input:focus{
+    border: 1px solid #D6B45A;
+
+}
+.wrapper .from .input_fild .textarea:focus{
+    border: 2px solid #D6B45A;
+
+}
+.song{
+    text-decoration: none;
+    color: #D6B45A;
+    border: 2px;
+    background-color:  black;
+    height: 10px;
+    height: 31px;
+    width: 67px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 4px;
+}
+.Up{
+    margin-top: 10px;
+    text-align: center;
+}
